@@ -7,7 +7,12 @@
 */
 
 var name = "Daniel";
-var danielsRole = "mentor";
+var role = "student";
+
+if (role === 'mentor' || role === 'student'){
+  return console.log(`Hi, I'm ${name}, I'm a ${role}.`);
+}
+
 
 /* 
 EXPECTED RESULT

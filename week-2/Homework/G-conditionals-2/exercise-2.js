@@ -8,7 +8,16 @@
 */
 
 function studentPassed(grade) {
-
+  if (grade<50 && grade>0){
+    return 'failed'
+  }
+  else if (grade >=50) {
+    return 'passed'
+  }
+  //agree a else case for numbers negatives, because a grade never could be negative
+  else {
+    return 'invalid'
+  }
 }
 
 /* 
